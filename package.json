@@ -1,0 +1,29 @@
+{
+  "name": "adal-express",
+  "version": "1.0.0",
+  "description": "Active Directory Authentication Library (ADAL) for Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhellwig/adal-express.git"
+  },
+  "keywords": [
+    "ADAL"
+  ],
+  "author": "Frank Hellwig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fhellwig/adal-express/issues"
+  },
+  "homepage": "https://github.com/fhellwig/adal-express#readme",
+  "dependencies": {
+    "express-request-proxy": "^2.0.0",
+    "express-session": "^1.13.0",
+    "https-error": "^1.0.2",
+    "https-service": "^1.0.5",
+    "session-file-store": "^0.2.0"
+  }
+}
